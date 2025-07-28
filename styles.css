@@ -1,0 +1,32 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Arial, sans-serif;
+}
+
+#color-picker-container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #ffffff;
+}
+
+label {
+	font-size: 2rem;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 80px;
+}
+
+input[type="color"] {
+	position: absolute;
+	margin-top: 50px;
+	height: 40px;
+}
